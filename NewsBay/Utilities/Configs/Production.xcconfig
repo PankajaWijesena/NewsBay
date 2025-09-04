@@ -1,0 +1,10 @@
+//
+//  Production.xcconfig
+//  NewsBay
+//
+//  Created by Pankaja Wijesena.
+//
+
+API_BASE_URL = https:/$()/dummyjson.com  // `$()` ADDED TO PREVENT PARSING AS A COMMENT
+PAGINATION_LIMIT = 20
+SEARCH_DEBOUNCE_DELAY = 800

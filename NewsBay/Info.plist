@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>lexend-deca-300.ttf</string>
+		<string>lexend-deca-400.ttf</string>
+		<string>lexend-deca-500.ttf</string>
+		<string>lexend-deca-600.ttf</string>
+		<string>lexend-deca-700.ttf</string>
+	</array>
+	<key>API_BASE_URL</key>
+	<string>$(API_BASE_URL)</string>
+	<key>PAGINATION_LIMIT</key>
+	<string>$(PAGINATION_LIMIT)</string>
+	<key>SEARCH_DEBOUNCE_DELAY</key>
+	<string>$(SEARCH_DEBOUNCE_DELAY)</string>
+</dict>
+</plist>
