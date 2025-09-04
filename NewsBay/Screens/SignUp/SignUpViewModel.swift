@@ -29,8 +29,6 @@ final class SignUpViewModel: BaseViewModel {
             id: userData.id,
             username: userData.username,
         )
-        try KeychainService.setDummyJSONAccessToken(userData.accessToken)
-        try KeychainService.setDummyJSONRefreshToken(userData.refreshToken)
         try persistence.saveUser(localUser)
         return userData
     }
