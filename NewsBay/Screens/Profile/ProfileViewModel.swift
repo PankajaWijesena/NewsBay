@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class ProfileViewModel: ObservableObject {
+final class ProfileViewModel: BaseViewModel {
     func logOut(persistence: PersistenceServicing) throws {
         guard (try? persistence.fetchUser()) != nil else {
             print("No saved local user found.")

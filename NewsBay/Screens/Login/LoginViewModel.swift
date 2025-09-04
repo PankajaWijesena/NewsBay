@@ -8,7 +8,7 @@
 import Foundation
 
 @MainActor
-final class LoginViewModel: ObservableObject {
+final class LoginViewModel: BaseViewModel {
     private let repository: AuthRepository
     
     @Published var username: String = ""
@@ -17,6 +17,7 @@ final class LoginViewModel: ObservableObject {
 
     init(repository: AuthRepository) {
         self.repository = repository
+        super.init()
     }
 
     @discardableResult

@@ -47,6 +47,7 @@
 				Services/Persistence/MockPersistenceService.swift,
 				Services/Persistence/PersistenceServicing.swift,
 				Services/Persistence/SwiftDataPersistenceService.swift,
+				Utilities/BaseViewModel.swift,
 				Utilities/Constant.swift,
 				Utilities/Errors/AuthError.swift,
 				Utilities/Errors/KeychainError.swift,

@@ -9,7 +9,7 @@ import Combine
 import Foundation
 
 @MainActor
-final class DashboardViewModel: ObservableObject {
+final class DashboardViewModel: BaseViewModel {
     @Published var isInitialLoadingComplete: Bool = false
     @Published var posts: [Post] = []
     @Published var searchQuery: String = ""
@@ -21,6 +21,7 @@ final class DashboardViewModel: ObservableObject {
 
     init(respository: PostRepository) {
         self.respository = respository
+        super.init()
         self.searchPostsObservation()
     }
 

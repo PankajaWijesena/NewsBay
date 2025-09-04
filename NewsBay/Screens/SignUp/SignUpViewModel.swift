@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class SignUpViewModel: ObservableObject {
+final class SignUpViewModel: BaseViewModel {
     private let repository: AuthRepository
     
     @Published var username: String = ""
@@ -15,6 +15,7 @@ final class SignUpViewModel: ObservableObject {
     
     init(repository: AuthRepository) {
         self.repository = repository
+        super.init()
     }
     
     @discardableResult
