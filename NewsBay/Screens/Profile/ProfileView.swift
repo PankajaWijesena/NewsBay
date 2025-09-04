@@ -58,7 +58,7 @@ struct ProfileView: View {
                             )
                         }
                     }
-                    Spacer(minLength: 0)
+                    Spacer(minLength: 80)
                     
                     // MARK: - LOG OUT BUTTON
                     Button(action: logOutAction) {
